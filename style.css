@@ -1,0 +1,348 @@
+/* Add a black background color to the top navigation */
+.menu {
+  background-color: rgb(51, 51, 51);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.menu a.active {
+  background-color: RGB(152, 180, 212);
+  color: white;
+}
+
+.login {
+  font-family: cursive, Helvetica, sans-serif;
+  color: black;
+}
+
+.button {
+  background-color: #052406;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+.body, .html {
+  margin: 0;
+  padding: 0;
+}
+
+.cont {
+  background-image: url('second.jpg');
+  height: 600px;
+  width: 100%;
+  display: block;
+  float: left;
+  background-size: 100%, cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  
+}
+
+h1 {
+  color: rgb(20, 8, 8);
+  text-align: center;
+  font-family: verdana;
+  font-size: 300%;  
+}
+blockquote {
+  min-height: 5em;
+  padding: 1em 4em;
+  font: 1em/150% sans-serif;
+  position: relative;
+  background-color:  RGB(152, 180, 212);
+  opacity:0.8;
+}
+
+blockquote::before,
+blockquote::after {
+  position: absolute;
+  height: 3rem;
+  font: 6rem/100% Georgia, "Times New Roman", Times, serif;
+}
+
+blockquote::before {
+  content: "“";
+  top: 0.3rem;
+  left: 0.9rem;
+}
+
+blockquote::after {
+  content: "”";
+  bottom: 0.3rem;
+  right: 0.8rem;
+}
+
+blockquote i {
+  display: block;
+  font-size: 0.8em;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type=text],
+input[type=password] {
+  position: relative;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 6px;
+  position: relative;
+  width: 200px;
+  margin: 10px;
+  line-height: 6ex;
+  
+}
+
+label {
+  position: static;
+  top: 0.2ex;
+  z-index: 1;
+  left: 2em;
+ 
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  margin: 10px 5px;
+}
+.map{ 
+  width: 50%;
+  padding: 10px;
+    }
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  background-color:  RGB(152, 180, 212);
+  opacity:0.9;
+  padding: 25px;
+
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.body {
+  margin: 0;
+}
+
+/* CSS for header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.header .logo {
+  font-size: 25px;
+  font-family: 'Sriracha', cursive;
+  color: #000;
+  text-decoration: none;
+  margin-left: 30px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5;
+  margin-right: 20px;
+
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #000;
+  padding: 35px 20px;
+}
+
+/* CSS for main section */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 520px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.intro h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.intro button {
+  background-color: #5edaf0;
+  color: #000;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+achievements {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 80px;
+}
+
+achievements .work {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+achievements .work i {
+  width: fit-content;
+  font-size: 50px;
+  color: #333333;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  padding: 12px;
+}
+
+achievements .work .work-heading {
+  font-size: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+achievements .work .work-text {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.about-me img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.about-me-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.about-me-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+/* CSS for footer */
+.footer {
+  display: flex;
+  
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 5px;
+  border-style: groove;
+  border-color: teal;
+  border-width: 10px;
+  font-size: 25px;
+  width: 100%;
+  position: relative;
+  bottom: -100px;
+  box-sizing: border-box;
+  height: 15rem;  
+ 
+
+}
+
+.footer .copy {
+  color: #fff;
+  
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
